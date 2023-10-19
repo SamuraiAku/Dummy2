@@ -1,10 +1,14 @@
 name = "Dummy2"
 uuid = "fb23cc6c-415b-4b10-a7ae-91d1f24ce4a7"
 authors = ["Simon Avery <savery@ieee.org> and contributors"]
-version = "1.0.0"
+version = "1.0.1"
+
+[deps]
+Dummy3= "a15f9a99-31c9-401d-87e4-3fe0ccb07a31"
 
 [compat]
 julia = "1"
+Dummy3 = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
